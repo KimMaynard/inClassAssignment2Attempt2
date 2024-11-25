@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC of CSS</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- js -->
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <h1 id="welcome-header">
+      Welcome to the Interactive ABCs of CSS Technology learning Website
+    </h1>
+
+    <h3 id="instructions">
+      Click on the buttons below to reveal and learn the CSS technology features
+      of the corresponding letters
+    </h3>
+
+    <div id="main">
+      <!-- container for A -->
+      <div id="container-1">
+        <img src="./img/css-letter-a.png" alt="" id="part-A" />
+        <button id="hidden-btn-A" onClick="hideImage('A')" class="hide-btn">
+          <a href="#" id="ref-A1">Hide Result</a>
+        </button>
+        <button onClick="showImage('A')" class="show-btn" id="btn-A">
+          <a href="#" id="ref-A2">A</a>
+        </button>
+      </div>
+      <!-- Container for B -->
+      <div id="container-2">
+        <img src="./img/css-letter-b.png" alt="" id="part-B" />
+        <button id="hidden-btn-B" onClick="hideImage('B')" class="hide-btn">
+          <a href="#" id="ref-B1">Hide Result</a>
+        </button>
+        <button onClick="showImage('B')" class="show-btn" id="btn-B">
+          <a href="#" id="ref-B2">B</a>
+        </button>
+      </div>
+      <!-- container for C -->
+      <div id="container-3">
+        <img src="./img/css-letter-c.png" alt="" id="part-C" />
+        <button id="hidden-btn-C" onClick="hideImage('C')" class="hide-btn">
+          <a href="#" id="ref-C1">Hide Result</a>
+        </button>
+        <button onClick="showImage('C')" class="show-btn" id="btn-C">
+          <a href="#" id="ref-C2">C</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
